@@ -8,7 +8,6 @@ struct node{
 
 void createlist(int n);
 void insertNodeAtBeginning();
-void maxlist();
 void displaylist();
 
 int main()
@@ -43,7 +42,7 @@ void createlist(int n)
     }
     else
     {
-        printf("Enter the data node:");
+        printf("Enter the data node 1:");
         scanf("%d",&data);
 
         head->data = data;
